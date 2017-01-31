@@ -1,6 +1,4 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Nagios Config Generator}
+## Nagios Config Generator
 Used by Holtes Design to generate the config files for Nagios.
 ## Installation
 - Place in the root folder of your websapce
@@ -18,6 +16,3 @@ TODO: Write history
 ## Credits
 ## License
 GPLv2
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
