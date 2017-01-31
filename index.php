@@ -15,6 +15,8 @@
   <title>Nagios CFG Generator</title>
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -30,7 +32,7 @@
             <div class="form-group">
                 <label class="col-md-4 control-label" for="hostname">Host Name</label>
                 <div class="col-md-4">
-                    <input id="hostname" name="hostname" type="text" placeholder="&#61447;   Host Name - i.e. vps-holtesdesign.nl" class="form-control input-md" required="">
+                    <input id="hostname" name="hostname" type="text" placeholder="&#xf0c2;   Host Name - i.e. vps-holtesdesign.nl" class="form-control input-md" required="">
                 </div>
             </div>
             <!-- Text input-->
@@ -46,7 +48,7 @@
             <div class="form-group">
                 <label class="col-md-4 control-label" for="ip">IP address</label>
                 <div class="col-md-4">
-                    <input id="ip" name="ip" type="text" placeholder="&#61447;   IP address - i.e. 127.0.0.1" class="form-control input-md" required="">
+                    <input id="ip" name="ip" type="text" placeholder="&#xf013;   IP address - i.e. 127.0.0.1" class="form-control input-md" required="">
 
                 </div>
             </div>
@@ -55,7 +57,7 @@
             <div class="form-group">
                 <label class="col-md-4 control-label" for="website">Website url</label>
                 <div class="col-md-4">
-                    <input id="website" name="website" type="text" placeholder="&#61447;   Website url - i.e. https://holtesdesign.nl" class="form-control input-md">
+                    <input id="website" name="website" type="text" placeholder="&#xf0ac;   Website url - i.e. https://holtesdesign.nl" class="form-control input-md">
 
                 </div>
             </div>
@@ -64,7 +66,7 @@
             <div class="form-group">
                 <label class="col-md-4 control-label" for="websiteword">Website reference</label>
                 <div class="col-md-4">
-                    <input id="websiteword" name="websiteword" type="text" placeholder="&#61447;   Website reference - i.e. welkom" class="form-control input-md">
+                    <input id="websiteword" name="websiteword" type="text" placeholder="&#xf129;   Website reference - i.e. welkom" class="form-control input-md">
                     
                 </div>
             </div>
@@ -73,7 +75,7 @@
             <div class="form-group">
                 <label class="col-md-4 control-label" for="imap_host">IMAP host</label>
                 <div class="col-md-4">
-                    <input id="imap_host" name="imap_host" type="text" placeholder="&#61447;   IMAP host - i.e. imap.holtesdesign.nl" class="form-control input-md">
+                    <input id="imap_host" name="imap_host" type="text" placeholder="&#xf0e0;   IMAP host - i.e. imap.holtesdesign.nl" class="form-control input-md">
 
                 </div>
             </div>
@@ -82,7 +84,7 @@
             <div class="form-group">
                 <label class="col-md-4 control-label" for="imap_user">IMAP user</label>
                 <div class="col-md-4">
-                    <input id="imap_user" name="imap_user" type="text" placeholder="&#61447;   IMAP user - i.e. spam@email.com" class="form-control input-md">
+                    <input id="imap_user" name="imap_user" type="text" placeholder="&#xf007;   IMAP user - i.e. spam@email.com" class="form-control input-md">
 
                 </div>
             </div>
@@ -91,7 +93,7 @@
             <div class="form-group">
                 <label class="col-md-4 control-label" for="imap_pass">IMAP pass</label>
                 <div class="col-md-4">
-                    <input id="imap_pass" name="imap_pass" type="text" placeholder="&#61447;   IMAP pass - i.e. magicword" class="form-control input-md">
+                    <input id="imap_pass" name="imap_pass" type="text" placeholder="&#xf084;   IMAP pass - i.e. magicword" class="form-control input-md">
 
                 </div>
             </div>

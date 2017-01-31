@@ -25,7 +25,7 @@ body {
 
 /* form elementen */
 legend {
-    text-align: left;
+    text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 30px;
@@ -38,18 +38,19 @@ label {
     display: none;
 }
 input {
-    width: 80%;
+    width: 85%;
     margin-left: 20px;
     border: 1px solid #D7D8D8;
-    border-radius: 4px;
+   
     padding: 12px 10px;
-    font-family: 'geomanistmedium','FontAwesome'
+    font-family: 'roboto','FontAwesome';
+    background-color:#F5F9F9;
     
 }
 form.form-horizontal {
     margin-top: 20%;
-    background-color: #F3F3F3;
-    border-radius: 10px;
+    background-color: #FFFFFF;
+
 }
 fieldset {
     border: none;
@@ -71,21 +72,17 @@ fieldset {
     background-color: #CB2B2C;
     color: #fff;
     margin: 0;
-    font-family: 'geomanistmedium';
+    font-family: 'Titillium Web';
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
+
 }
 .form-group:last-child {
     width: 100%;
     border: none;
     color: #fff;
     margin-bottom: 0px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+
 }
 
 /* Video */
