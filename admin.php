@@ -132,7 +132,7 @@ contact_groups                  admins
 ";
 
 
-$cfg = $section_host.$section_ping.$section_ping.$section_ssh.(!empty($weburl) ? $section_website : "" ).(!empty($webmailurl) ? $section_webmail : "" ).$section_smtp.(!empty($imaphost) ? $section_imap : "" ).(!empty($imaphost) ? $section_pop3 : "" ).$section_disk;
+$cfg = $section_host.$section_ping.$section_ping.$section_ssh.(!empty($weburl) ? $section_website : "" ).$section_webmail.$section_smtp.(!empty($imaphost) ? $section_imap : "" ).(!empty($imaphost) ? $section_pop3 : "" ).$section_disk;
 
 header("Content-type: text/plain");
 header("Content-Disposition: attachment; filename=".$hostname.".cfg");
