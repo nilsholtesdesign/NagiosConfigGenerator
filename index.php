@@ -26,19 +26,19 @@
 		  <div class="col-3">
 		    <label>
 		      Host Name
-		      <input id="hostname" name="hostname" placeholder="vps-holtesdesign.nl" tabindex="1" />
+		      <input id="hostname" name="hostname" placeholder="vps-holtesdesign.nl" tabindex="1" required="required" />
 		    </label>
 		  </div>
 		  <div class="col-3">
 		    <label>
 		      Alias
-		      <input id="alias" name="alias" placeholder="Holtes Design Production" tabindex="2" />
+		      <input id="alias" name="alias" placeholder="Holtes Design Production" tabindex="2" required="required"/>
 		    </label>
 		  </div>
 		  <div class="col-3">
 		    <label>
 		      IP address
-		      <input id="ip" name="ip" placeholder="127.0.0.1" tabindex="3" />
+		      <input id="ip" name="ip" placeholder="127.0.0.1" tabindex="3" required="required"/>
 		    </label>
 		  </div>
 		  <div class="col-2">
@@ -52,22 +52,33 @@
 		      Website reference
 		      <input id="websiteword" name="websiteword" placeholder="Welcome" tabindex="5" />    </label>
 		  </div>
+            <div class="col-2">
+                <label>
+                    Webmail URL
+                    <input id="webmail" name="webmail" placeholder="http://webmail.holtesdesign.nl" tabindex="6" />
+                </label>
+            </div>
+            <div class="col-2">
+                <label>
+                    Webmail reference
+                    <input id="webmailword" name="webmailword" placeholder="Roundcube" tabindex="7" />    </label>
+            </div>
 		  <div class="col-3">
 		    <label>
 		      IMAP Host
-		      <input id="imap_host" name="imap_host" placeholder="imap.holtesdesign.nl" tabindex="6" />
+		      <input id="imap_host" name="imap_host" placeholder="imap.holtesdesign.nl" tabindex="8" />
 		    </label>
 		  </div>
 		  <div class="col-3">
 		    <label>
 		      IMAP User
-		      <input id="imap_user" name="imap_user" placeholder="spam@email.com" tabindex="7" />
+		      <input id="imap_user" name="imap_user" placeholder="spam@email.com" tabindex="9" />
 		    </label>
 		  </div>
 		  <div class="col-3">
 		    <label>
 		      IMAP Password
-		      <input id="imap_pass" name="imap_pass" placeholder="Ketamine" tabindex="8" />
+		      <input id="imap_pass" name="imap_pass" placeholder="Ketamine" tabindex="10" />
 		    </label>
 		  </div>
 		  <div class="col-1 button">

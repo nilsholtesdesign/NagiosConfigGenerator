@@ -3,8 +3,9 @@ $hostname       = $_POST["hostname"];
 $alias          = $_POST["alias"];
 $ip             = $_POST["ip"];
 $weburl         = $_POST["website"];
-$webmailurl     = $_POST["website"];
 $webword        = $_POST["websiteword"];
+$webmailurl    = $_POST["webmail"];
+$webmailword    = $_POST["webmailword"];
 $imaphost       = $_POST["imap_host"];
 $imapuser       = $_POST["imap_user"];
 $imappass       = $_POST["imap_pass"];
@@ -76,7 +77,7 @@ define service {
 use                             generic-service
 host_name                       ". $hostname ."
 service_description             Roundcube
-check_command                   check_website_content!". $hostname ."!Roundcube
+check_command                   check_website_content!". $webmailurl ."!Roundcube
 notifications_enabled           1
 contact_groups                  admins
 }
@@ -119,7 +120,7 @@ contact_groups                  admins
 ";
 
 
-$cfg = $section_host.$section_ping.$section_ping.$section_ssh.(!empty($weburl) ? $section_website : "" ).$section_webmail.$section_smtp.(!empty($imaphost) ? $section_imap : "" ).(!empty($imaphost) ? $section_pop3 : "" ).$section_disk;
+$cfg = $section_host.$section_ping.$section_ssh.(!empty($weburl) ? $section_website : "" ).(!empty($webmailurl) ? $section_webmail : "" ).$section_smtp.(!empty($imaphost) ? $section_imap : "" ).$section_disk;
 
 header("Content-type: text/plain");
 header("Content-Disposition: attachment; filename=".$hostname.".cfg");
