@@ -1,17 +1,4 @@
-<html>
-<head>
-    <style>
-        body{white-space: pre-line;}
-    </style>
-</head>
-<body>
-
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
-
 $hostname       = $_POST["hostname"];
 $alias          = $_POST["alias"];
 $ip             = $_POST["ip"];
@@ -138,5 +125,3 @@ header("Content-type: text/plain");
 header("Content-Disposition: attachment; filename=".$hostname.".cfg");
 echo $cfg;
 ?>
-</body>
-</html>
